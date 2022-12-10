@@ -1,2 +1,2 @@
-echo -e '#!/bin/bash\ngcc -S $CFILE' > 2-assembler
-
+#!/bin/bash
+gcc -S $CFILE
