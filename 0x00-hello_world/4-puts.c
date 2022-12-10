@@ -1,4 +1,4 @@
-#include <stdio.o>
+#include <stdio.h>
 /**
  * Return: 0 if success
  */
