@@ -1,1 +1,1 @@
-6-size.c
+100-intel
