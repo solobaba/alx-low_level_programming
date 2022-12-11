@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - prints all possible comobination of two digits numbers
+ *
+ * Return 0
+ */
+
 int main(void)
 {
 	int i, p;
@@ -10,13 +16,13 @@ int main(void)
 		{
 			if (p > i)
 			{
-				putchar((i / 10) + '0');
-				putchar((i % 10) + '0');
+				putchar(i / 10 + '0');
+				putchar(i % 10 + '0');
 				putchar(' ');
-				putchar((p / 10) + '0');
-				putchar((p % 10) + '0');
+				putchar(p / 10 + '0');
+				putchar(p % 10 + '0');
 				
-				if (i != 98)
+				if (i * 100 + j != 9899)
 				{
 					putchar(',');
 					putchar(' ');
@@ -25,6 +31,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
-
