@@ -1,1 +1,1 @@
-2-mul.c
+3-print_numbers.c
