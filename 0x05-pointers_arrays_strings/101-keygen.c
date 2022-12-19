@@ -3,26 +3,25 @@
 #include <time.h>
 #include "main.h"
 	
-	/**
-	 *  * main - entry point
-	 *   *
-	 *    * Return: generated password
-	 *     */
+/**
+* main - entry point
+*
+* Return: generated password
+*/
+
+int main(void)
+{
+	char c;
+	int x;
 	
-	int main(void)
+	srand(time(0));
+	while (x <= 2645)
 	{
-		char c;
-		int x;
+		c = rand() % 128;
+		x += c;
+		putchar(c);
+	}
+	putchar(2772 - x);
 	
-		srand(time(0));
-		while (x <= 2645)
-		{
-				c = rand() % 128;
-				x += c;
-				putchar(c);
-			}
-		putchar(2772 - x);
-	
-		return (0);
-	}}
+	return (0);
 }
