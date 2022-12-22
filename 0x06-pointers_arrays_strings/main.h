@@ -3,10 +3,10 @@
 int _putchar(char c);
 #include <stdio.h>
 /**
- *  *void prototypes()
- *   *int prototypes()
- *    *char prototypes()
- *     */
+ * void prototypes()
+ * int prototypes()
+ * char prototypes()
+ */
 void reverse_array(int *a, int n);
 void print_number(int n);
 void print_buffer(char *b, int size);
