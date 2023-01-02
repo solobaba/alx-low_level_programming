@@ -1,1 +1,1 @@
-7-print_chessboard.c
+8-print_diagsums.c
