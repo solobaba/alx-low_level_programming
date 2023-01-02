@@ -1,1 +1,1 @@
-5-strstr.c
+7-print_chessboard.c
