@@ -1,1 +1,1 @@
-5-sqrt_recursion.c
+6-is_prime_number.c
