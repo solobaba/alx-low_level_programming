@@ -1,1 +1,1 @@
-6-is_prime_number.c
+100-is_palindrome.c
