@@ -22,7 +22,7 @@ int helperFunction(int num, int pSqrt)
 			return (helperFunction(num, pSqrt + 1));
 	}
 }
-	
+
 /**
  * _sqrt_recursion - returns the natural square root of a number.
  * @n: number to find sqrt of.
