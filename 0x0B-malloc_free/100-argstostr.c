@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * argstostr - concatenates all the arguments of your program.
- * @ac - argument count.
+ * @ac: argument count.
  * @av: pointer to array of size ac.
  * Return: NULL if ac == 0 or av == NULL, pointer to new string.
  * NULL or fail.
@@ -16,7 +16,7 @@ char *argstostr(int ac, char **av)
 	size = 0;
 	k = 0;
 	if (ac == 0 || av == NULL)
-		return NULL;
+		return (NULL);
 	i = 0;
 	while (i < ac)
 	{
