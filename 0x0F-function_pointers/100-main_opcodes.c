@@ -3,7 +3,7 @@
 
 /**
  * main - print opcodes of a given machine.
- * @argc - number of arguments.
+ * @argc: number of arguments.
  * @argv: argument vector.
  *
  * Return: 0.
